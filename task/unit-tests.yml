@@ -1,0 +1,14 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: java-8
+    tag: "latest"
+
+inputs:
+- name: LMS
+
+run:
+  path: LMS/task/run-unit-tests
