@@ -1,0 +1,5 @@
+applications:
+- name: LibraryManagementSystem
+  memory: 512MB
+  host: LibraryManagementSystem1
+  path: target/LibraryManagementSystem-0.0.1-SNAPSHOT.jar
